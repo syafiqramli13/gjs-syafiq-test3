@@ -5,21 +5,18 @@ import { AppFooter } from "./AppFooter";
 import { AppMenu } from "./AppMenu";
 import { AppProfile } from "./AppProfile";
 import { Route } from "react-router-dom";
-import { AboutUs } from "./components/1-AboutUs";
-import { Gallery } from "./components/2-Gallery";
-import { Directory } from "./components/3-Directory";
-import { Scanner } from "./components/4-Scanner";
-import { ContactUs } from "./components/5-ContactUs";
-import { Register } from "./components/6-Register";
-import { EmptyPage } from "./components/EmptyPage";
-import { Documentation } from "./components/Documentation";
+import AboutUs from "./screen/1-AboutUs";
+import Gallery from "./screen/2-Gallery";
+import { Directory } from "./screen/3-Directory";
+import { Scanner } from "./screen/4-Scanner";
+import { ContactUs } from "./screen/5-ContactUs";
+import { Register } from "./screen/6-Register";
+import { EmptyPage } from "./screen/EmptyPage";
+import { Documentation } from "./screen/Documentation";
 import "primereact/resources/themes/nova-light/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import "primeflex/primeflex.css";
-import "@fullcalendar/core/main.css";
-import "@fullcalendar/daygrid/main.css";
-import "@fullcalendar/timegrid/main.css";
 import "./layout/layout.scss";
 import "./App.scss";
 
@@ -237,8 +234,8 @@ export default class App extends Component {
           {/* <div className="layout-logo">
             <img alt="Logo" src={logo} />
           </div> */}
-
           <AppProfile />
+
           <AppMenu model={this.menu} onMenuItemClick={this.onMenuItemClick} />
         </div>
 
@@ -260,5 +257,3 @@ export default class App extends Component {
     );
   }
 }
-
-//export default App;

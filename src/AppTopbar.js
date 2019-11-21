@@ -39,7 +39,7 @@ export class AppTopbar extends Component {
             <span className="layout-topbar-icon pi pi-user" />
           </button>
         </div> */}
-        <text>GJS</text>
+        {/* <span className="layout-topbar-item-text">GJS</span> */}
       </div>
     );
   }
