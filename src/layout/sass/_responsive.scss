@@ -56,7 +56,8 @@
     }
   }
 }
-
+//1024  dia web
+//1024 ke bawah akan jadi mcm setting bawah
 @media (max-width: 1024px) {
   .layout-wrapper {
     .layout-topbar {
@@ -97,6 +98,9 @@
   }
 
   .body-overflow-hidden {
+    overflow: hidden;
+  }
+  .panel-size {
     overflow: hidden;
   }
   // .responsive-image {

@@ -15,16 +15,8 @@ export default class InfiniteSlider extends Component {
       shift: 100
     };
     return (
-      <div>
+      <div style={{ height: "50px" }}>
         <Slider {...settings}>
-          <div>
-            <img
-              src="/assets/img/gjs1.jpg"
-              //   style={{ size: "5px" }}
-              alt="pictures"
-              className="responsive-image__image"
-            />
-          </div>
           <div>
             <img
               src={"assets/layout/images/naim.jpeg"}

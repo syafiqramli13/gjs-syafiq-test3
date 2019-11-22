@@ -10,6 +10,11 @@ h2 {
   font-weight: normal;
   margin: 0;
 }
+h3 {
+  font-size: 15px;
+  font-weight: normal;
+  margin: 0;
+}
 
 .card {
   background-color: #ffffff;
@@ -30,6 +35,11 @@ h2 {
     &:first-child {
       margin: 0 0 0.5em 0;
     }
+  }
+  h2 {
+    margin: 1em 0 0.5em 0;
+    padding: 0.1em;
+    font-size: 20px;
   }
 }
 

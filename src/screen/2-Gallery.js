@@ -1,16 +1,18 @@
 import React, { Component } from "react";
-import InfiniteSlider from "../prop/infiniteCarousel";
+// import ResponsiveCarousel from "../components/resCarouselGallery";
+// import ImageViewer from "../components/ImageViewer";
+import OverlaysDemo from "../components/ImageViewer";
 
 export default class Gallery extends Component {
   render() {
     return (
       <div className="p-grid">
         <div className="p-col-12">
-          <div className="card" style={{ margin: "0px" }}>
+          <div className="card">
             <h1 style={{ textAlign: "center" }}>Gallery</h1>
-            <div>
-              <InfiniteSlider />
-            </div>
+            {/* <ResponsiveCarousel /> */}
+            {/* <ImageViewer /> */}
+            <OverlaysDemo />
           </div>
         </div>
       </div>
